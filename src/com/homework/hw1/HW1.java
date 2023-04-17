@@ -1,7 +1,6 @@
 package com.homework.hw1;
 
 public class HW1 {
-    public class Main {
         public static void main(String[] args) {
             //        Задача 2
 
@@ -16,6 +15,18 @@ public class HW1 {
 
             double k = 1.0 / 5 * 1000;
             System.out.println((int)k);
+
+//            Задача 4
+
+            int productAPrice = 200;
+            int productBPrice = 30;
+            double productDiscountA = 0.15;
+            int numberOfGoodsA = 10;
+            int numberOfGoodsB = 2;
+            double priceWithDiscountA = (double)productAPrice - (double)productAPrice * productDiscountA;
+            double amountA = priceWithDiscountA * (double)numberOfGoodsA;
+            int amountB = productBPrice * numberOfGoodsB;
+            System.out.println((int)amountA + amountB);
         }
-    }
+
 }
