@@ -18,17 +18,24 @@ public class HW2 {
 //        Задача 2
 
         double height = 1.7D;
-        double weight = 50D;
+        double weight = 120D;
         double bodyMassIndex = weight / Math.pow(height, 2);
         System.out.println(bodyMassIndex);
-        if (bodyMassIndex <= 16.5 ) {
+        if (bodyMassIndex <= 16.5) {
             System.out.println("Крайний недостаток веса");
-        } else if (bodyMassIndex >= 16.6) {
+        } else if (bodyMassIndex <= 18.4) {
             System.out.println("Недостаток в весе");
-        } else if (bodyMassIndex >= 25 ) {
+        } else if (bodyMassIndex <= 24.9) {
             System.out.println("Нормальный вес тела");
+        } else if (bodyMassIndex <= 30) {
+            System.out.println("Избыточная масса тела");
+        } else if (bodyMassIndex <= 34.9) {
+            System.out.println("Ожирение (Класс I)");
+        } else if (bodyMassIndex <= 40) {
+            System.out.println("Ожирение (Класс II - тяжелое)");
+        } else if (bodyMassIndex > 40) {
+            System.out.println("(Класс III - крайне тяжелое)");
         }
-
 
 
     }
