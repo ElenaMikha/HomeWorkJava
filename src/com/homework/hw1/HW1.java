@@ -13,14 +13,14 @@ public class HW1 {
             System.out.println(m);
 
 
-            double k = 1.0 / 5 * 1000;
+            double k = 1.0 / 5 * 1000D;
             System.out.println((int)k);
 
 //            Задача 4
 
             int productAPrice = 200;
             int productBPrice = 30;
-            double productDiscountA = 0.15;
+            double productDiscountA = 0.15D;
             int numberOfGoodsA = 10;
             int numberOfGoodsB = 2;
             double priceWithDiscountA = (double)productAPrice - (double)productAPrice * productDiscountA;
