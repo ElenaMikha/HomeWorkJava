@@ -36,7 +36,31 @@ public class HW2 {
         } else if (bodyMassIndex > 40) {
             System.out.println("(Класс III - крайне тяжелое)");
         }
+//             Задача 3
 
+        int day = 7;
+        switch (day) {
+            case 1: {
+                System.out.println("Понедельник");
+                break;
+            }case 2: {
+                System.out.println("Вторник");
+                break;
+            }case 3 : {
+                System.out.println("Среда");
+                break;
+            }case 4: {
+                System.out.println("Четверг");
+                break;
+            }case 5: {
+                System.out.println("Пятница");
+                break;
+            }case 6: case 7: {
+                System.out.println("Выходной");
+                break;
+            } default:
+                System.out.println("Это не день недели");
+        }
 
     }
 
